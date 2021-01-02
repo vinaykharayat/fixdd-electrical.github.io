@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: Varela Round, Helvetica, sans-serif;
+}
+
+main{
+    padding-top: 180px;
+}
+
+.featured-container{
+    position: relative;
+    background-image: url(https://girouxelectric.com/wp-content/uploads/2020/05/residential-electrical-contractor.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: 100% 100%;
+}
+
+.featured-image{
+    filter: opacity(50%);
+}
+
+.featured-image-overlay{
+    background-color: #262a62;
+    height: 500px;
+    transform: skew(-15deg);
+    filter: opacity(80%);
+    margin-right: 57%;
+    margin-left: -100%;
+}
+
+.featured-description{
+    position: absolute;
+    top: 0px;
+    color: white;
+    text-align: center;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    margin-top: 80px;
+    margin-left: 8%;
+}
+
+#features-section{
+    text-align: center;
+    color: #333333;
+    width: 80%;
+    margin: 40px auto;
+}
+
+#features-block-container{
+    display: flex;
+    padding: 20px;
+    text-align: left;
+    margin-top: 40px;
+}
+#features-block-container div{
+    margin: 20px;
+    width: 60%;
+}
+#features-block-container > div{
+    border: solid blue 1px;
+    position: relative;
+    display: flex;
+    background-size: 100% 100%;
+    background-image: url(https://girouxelectric.com/wp-content/uploads/2018/01/feature-bg-icon-final.png);
+}
+
+
+#features-block-container img{
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#section-3{
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    background-color: #f6f6f6;
+}
+
+#section-3> div{
+    align-self: center;
+    font-size: 29px;
+    font-family: Raleway;
+    color: #666666;
+    padding: 15px;
+    width: 50%;
+}
+
+#section-3 button{
+    padding: 15px 20px;
+    background-color: #001767;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: large;
+}
+#section3-background{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+    margin: 20px 0;
+}
+#section3-background > div{
+    color: white;
+    align-self: center;
+    width: 45%;
+    margin: auto;
+    padding: 20px;
+}
+
+#section-4{
+    display: flex;
+    flex-direction: column;
+    font-family: Varela Round;
+}
+
+
+#section-4-blocks{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 350px;
+    margin: 20px 40px;
+}
+
+#section-4-blocks>div{
+    margin: 0 40px;
+    position: relative;
+}
+
+#section-6{
+    position: relative;
+}
+
+#section-7{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #001d69;
+    height: 250px;
+}
+
+#section-7 button{
+    padding: 15px 20px;
+    background-color: #001767;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    border: white solid;
+}
+
+.section-7 button:hover{
+	background-color: #8487ab;
+	border:#0000 solid;
+	padding-right: 40px;
+	transition: 200ms;
+}
+
+#section-3{
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    background-color: #f6f6f6;
+}
+
+.button{
+	font-family: 'Raleway', sans-serif;
+    margin-top: 40px;
+	background-color: #000c78;
+	color: white;
+	font-size: 20px;
+    font-weight: 500;
+}
+
+.button span {
+    transition: 0.3s;
+}
+
+.button:before, .button:after{
+    position: absolute;
+    align-self: center;
+    opacity: 0;
+}
+
+.button:before{
+    content: attr(data-hover);
+}
+
+.button:hover span{
+    opacity: 0;
+    padding-right: 20px;
+}
+
+.button:hover:before{
+    opacity: 1;
+}
+
+.button:hover{
+    background-color: #8487ab;
+}
+ @media screen and (max-width: 800px){
+    .featured-container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-image: url(https://girouxelectric.com/wp-content/uploads/2020/05/residential-electrical-contractor.jpg);
+        width: 100%;
+        height: 500px;
+        background-size: 100% 100%;
+    }
+    
+    .featured-image-overlay{
+        background-color: #262a62;
+        transform: skew(360deg);
+        filter: opacity(80%);
+        margin-right: 0%;
+        margin-left: 0%;
+        height: 50%;
+        margin: auto;
+        flex: auto;
+        align-self: flex-end;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+    
+    .featured-description{
+        position: absolute;
+        flex: auto;
+        align-self: flex-end;
+        width: 100%;
+        color: white;
+        text-align: center;
+        margin: 50% auto;
+    }
+
+    .featured-container img{
+        display: none;
+    }
+    #features-block-container{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+    }
+
+    .block-description{
+        font-size: 12px;
+    }
+
+    #features-block-container > div{
+        width: 100%;
+        margin-right: 100px;
+    }
+
+    #features-block-container > div{
+        align-self: center;
+        border: solid blue 1px;
+        margin: 0px;
+        margin-bottom: 40px;
+        height: fit-content;
+        background-image: url(https://girouxelectric.com/wp-content/uploads/2018/01/feature-bg-icon-final.png);
+        background-size: 100% 100%;
+    }
+
+    #section-3{
+        display: flex;
+        text-align: center;
+        margin: 20px;
+        background-color: #f6f6f6;
+        flex-direction: column;
+    }
+    #section-3> div{
+        align-self: center;
+        font-size: 29px;
+        font-family: Raleway;
+        color: #666666;
+        padding: 5px;
+        width: 100%;
+    }
+    #section-4-blocks{
+        display: grid;
+        position: relative;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px 20px;
+        height: 100%;
+    }
+
+    #section-4-blocks > div{
+        margin: 0;
+        margin-bottom: 40px 
+    }
+
+    #section-6{
+        width: 100%;
+        display: flex;
+        position: relative;
+        height: 100%;
+    }
+
+    #section-6-heading{
+        font-size: x-large !important;
+    }
+
+    #section-6-heading + div{
+        font-size: large !important;
+    }
+
+    #section-7{
+        font-size: large !important;
+        border: solid;
+    }
+}

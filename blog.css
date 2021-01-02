@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.section-1{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-areas: "blog links";
+}
+
+.blog{
+	grid-area: blog;
+	display: flex;
+	flex-direction: column;
+	padding-left: 150px;
+	padding-right: 120px;
+	border-top: 1px solid #666666;
+	border-right: 1px solid #666666;
+}
+
+.blog h1{
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+	color: #666666;
+	padding-top: 40px;
+}
+
+.blog p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #666666;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.links{
+	grid-area: links;
+	display: flex;
+	flex-direction: column;
+	padding-left: 40px;
+	padding-right: 120px;
+	border-top: 1px solid #666666;
+}
+
+.links h3{
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: #666666;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+#a1,#a2,#a3{
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #666666;
+	line-height: 24px;
+	padding-top: 10px;
+}
+
+#a1:hover,#a2:hover,#a3:hover{
+	color: #082359;
+}
