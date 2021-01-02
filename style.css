@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 body{
     margin:0;
     font-family: Varela Round, Helvetica, sans-serif;
@@ -208,9 +210,11 @@ main{
     background-color: #8487ab;
 }
  @media screen and (max-width: 800px){
+    
     .featured-container{
         display: flex;
         flex-direction: column;
+        flex-flow: wrap;
         position: relative;
         background-image: url(https://girouxelectric.com/wp-content/uploads/2020/05/residential-electrical-contractor.jpg);
         width: 100%;
@@ -241,6 +245,8 @@ main{
         color: white;
         text-align: center;
         margin: 50% auto;
+        top: 10%;
+        transform: translate(0%, 0%);
     }
 
     .featured-container img{
@@ -308,14 +314,27 @@ main{
 
     #section-6-heading{
         font-size: x-large !important;
+        position: relative;
     }
 
     #section-6-heading + div{
-        font-size: large !important;
+        font-size: medium !important;
+        margin: auto;
+        position: relative;
     }
 
     #section-7{
         font-size: large !important;
         border: solid;
+        height: fit-content;
     }
+
+    #section-7 > div{
+        display: block;
+        position: relative;
+        margin: 0;
+        width: 100%;
+        padding: 0%;
+    }
+
 }

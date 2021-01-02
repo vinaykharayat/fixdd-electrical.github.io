@@ -305,7 +305,8 @@
         width: 100%;
         color: white;
         text-align: center;
-        margin: 50% auto;
+		margin: 50% auto;
+		top: 15%;
     }
 
     .featured-container img{
