@@ -209,7 +209,7 @@ main{
 .button:hover{
     background-color: #8487ab;
 }
- @media screen and (max-width: 800px){
+@media screen and (max-width: 800px){
     
     .featured-container{
         display: flex;

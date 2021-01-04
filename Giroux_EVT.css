@@ -85,6 +85,11 @@
 	padding-top: 40px;
 }
 
+.section-5 img{
+	float: right;
+	padding: 10px;
+}
+
 .section-5 p{
 	font-family: 'Varela Round', sans-serif;
 	color: #666666;
@@ -268,6 +273,16 @@
 
 
 @media screen and (max-width: 800px){
+	.section-1{
+		height: 100%;
+	}
+	.war > div{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		font-size: medium;
+		background-color: #66666666;
+	}
 	.section-2{
 		padding: 100px 20px;
 	}

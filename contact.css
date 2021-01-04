@@ -75,7 +75,7 @@ form{
 
 #in{
     display: grid;
-;
+    grid-template-columns: repeat(1, 1fr);
 }
 
 #mr{
@@ -124,4 +124,142 @@ form{
 
 #jt{
     padding-left: 50px;;
+}
+
+.button{
+	font-family: 'Raleway', sans-serif;
+    margin-top: 40px;
+	background-color: #000c78;
+	color: white;
+	font-size: 20px;
+    font-weight: 500;
+}
+
+.button span {
+    transition: 0.3s;
+}
+
+.button:before, .button:after{
+    position: absolute;
+    align-self: center;
+    opacity: 0;
+}
+
+.button:before{
+    content: attr(data-hover);
+}
+
+.button:hover span{
+    opacity: 0;
+    padding-right: 20px;
+}
+
+.button:hover:before{
+    opacity: 1;
+}
+
+@media screen and (max-width: 800px){
+    .featured-container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-image: url(https://girouxelectric.com/wp-content/uploads/2020/05/residential-electrical-contractor.jpg);
+        width: 100%;
+        height: 500px;
+        background-size: 100% 100%;
+    }
+    
+    .featured-image-overlay{
+        background-color: #262a62;
+        transform: skew(360deg);
+        filter: opacity(80%);
+        margin-right: 0%;
+        margin-left: 0%;
+        height: 50%;
+        margin: auto;
+        flex: auto;
+        align-self: flex-end;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+    
+    .featured-description{
+        position: absolute;
+        flex: auto;
+        align-self: flex-end;
+        width: 100%;
+        color: white;
+        text-align: center;
+		margin: 50% auto;
+		top: 15%;
+    }
+
+    .featured-container img{
+        display: none;
+	}
+    .section-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #add, #tel, #eml{
+        float: unset;
+    }
+
+    .cd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .cd h1{
+        padding: 60px;
+        font-family: 'Varela Round', sans-serif;
+	    font-weight: 500;
+	    font-size: 26px;
+	    color: #666666;
+    }
+
+    .cd div, .cd p{
+        padding-left: 0px;
+        margin: auto;
+    }
+
+    #mr{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #in{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    #in textarea{
+        margin: 10px 10px;
+    }
+
+    #mr > input{
+        padding-left: 0;
+        float: unset;
+        margin: 10px 10px;
+    }
+
 }
