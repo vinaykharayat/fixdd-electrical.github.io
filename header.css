@@ -140,7 +140,6 @@ main {
         cursor: pointer;
         align-self: flex-start;
         padding: 20px 20px;
-        border: solid;
     }
 
     #nav-menu #site_logo_mobile{
