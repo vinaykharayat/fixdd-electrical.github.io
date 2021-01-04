@@ -11,7 +11,7 @@
     <nav id="nav-main">
         <ul id="nav-menu">
             <img src="./images/giroux-new-logo.png" width="182" height="182" alt="">
-            <button>☰</button>
+            <button id="nav-btn">☰</button>
             <li><a class="active" href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li id="dropdown-btn"><a href="#">Services</a>
@@ -31,13 +31,13 @@
     <script type="text/javascript">
         $(document).ready(function () {
             /* function called when you click of the button */
-            $("button").click(function () {
+            $("#nav-btn").click(function () {
 
                 /* this if else to change the text in the button */
-                if ($("button").text() == "☰") {
-                    $("button").text("X");
+                if ($("#nav-btn").text() == "☰") {
+                    $("#nav-btn").text("X");
                 } else {
-                    $("button").text("☰");
+                    $("#nav-btn").text("☰");
                 }
 
                 /* this function toggle the visibility of our "li" elements */
