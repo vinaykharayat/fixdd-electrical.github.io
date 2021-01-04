@@ -64,7 +64,7 @@ header {
     margin: 10px 20px;
 }
 
-#nav-menu button {
+#nav-menu button,#site_logo_mobile{
     display: none;
 }
 
@@ -104,12 +104,6 @@ header {
     color: #262a62;
 }
 
-/* Hides hanburger icon on PC view */
-
-.icon {
-    display: none;
-}
-
 main {
     padding-top: 180px;
 }
@@ -129,6 +123,7 @@ main {
     #nav-menu img {
         margin: 0px 0px;
         align-self: center;
+        display: none;
     }
     #nav-menu a {
         display: block;
@@ -143,13 +138,25 @@ main {
         border: none;
         outline: none;
         cursor: pointer;
+        align-self: flex-start;
+        padding: 20px 20px;
+        border: solid;
+    }
+
+    #nav-menu #site_logo_mobile{
+        position: absolute;
+        display: inline;
+        margin: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
 
     header {
-        height: 92px;
+        height: unset;
     }
     main {
-        padding-top: 92px;
+        padding-top: unset;
     }
 }
