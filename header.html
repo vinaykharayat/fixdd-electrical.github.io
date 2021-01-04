@@ -30,18 +30,14 @@
     <script src="./js/jquery-3.5.1.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            /* function called when you click of the button */
             $("#nav-btn").click(function () {
-
-                /* this if else to change the text in the button */
                 if ($("#nav-btn").text() == "☰") {
                     $("#nav-btn").text("X");
                 } else {
                     $("#nav-btn").text("☰");
                 }
 
-                /* this function toggle the visibility of our "li" elements */
-                $("li").toggle("slow");
+                $("#nav-menu li").slideToggle();
             });
         });
     </script>
