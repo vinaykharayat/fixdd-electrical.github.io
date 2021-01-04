@@ -14,27 +14,11 @@
 	<title>Blog</title>
 </head>
 <body>
-	<header>
-        <nav id="nav-main">
-            <div id="logo-container">
-                <img src="./images/giroux-new-logo.png" width="182" height="182" alt="">
-            </div>
-            <ul id="nav-menu">
-            	<li><a  href="index.html">Home</a></li>
-            	<li><a href="about.html">About</a></li>
-            	<li id="dropdown-btn">Services
-                	<div class="dropdown-content">
-                    	<a href="#">Residential<br>Services</a>
-                    	<a href="#">Commercial<br>Services</a>
-                	</div>
-            	</li>
-            	<li>Careers</li>
-            	<li><a href="Giroux_EVT.html">Edison Vs Tesla</a></li>
-            	<li><a class="active" href="blog.html">Blog</a></li>
-            	<li><a href="contact.html">Contact</a></li>
-        	</ul>
-        </nav>
-	</header>
+	
+	<!-- Start header area -->
+    <header id="header"></header>
+	<!-- End header area -->
+
 	<main>
 	<section class="section-1">
 		<div class="blog">
@@ -56,27 +40,17 @@
 		</div>
 	</section>
 
-	<footer>
-		<div class="f1">
-			<div class="reachus">
-				<h3>Reach Us</h3>
-				<p>Giroux Electrical Contractors, Inc. Northborough, MA 01532.</p>
-				<p><span style="font-weight: 700;">Email:</span> info@girouxelectric.com Tel: (508) 719-8000</p>
-				<h2>Licensed Under</h2>
-				<div>
-					<img src="./images/footer_image1.png">
-					<img src="./images/footer_image2.png">
-				</div>
-			</div>
-			<div class="list">
-				<h3>List of Cities & Towns Serviced</h3>
-				<p>Acton | Ashland | Ayer | Bedford | Bellingham | Berlin | Blackstone | Bolton | Boxboro | Boxborough | Boylston | Carlisle | Concord |Douglas | Dover | Foxboro | Foxborough | Framingham | Franklin | Grafton | Groton | Harvard | Holliston | Hopedale | Hopkinton | Hudson | Lexington | Lincoln | Littleton | Mansfield | Marlboro | Marlborough | Maynard | Medfield | Medway | Mendon | Milford | Millis | Millville | Natick | Needham | Newton | Norfolk | Northborough | Northbridge | Norwood | Sharon | Sherborn | Shirley | Shrewsbury | Southborough | Stow | Sudbury | Upton | Uxbridge | Walpole | Wayland | Wellesley | Westborough | Westford | Weston | Westwood | Wrentham | Nutting Lake | Pinehurst | North Billerica | North Chelmsford | Waltham | Nonatum | Auburndale | Waban | Newtonville | Chestnut Hill | Brook Farm | Bellevue Hill | Georgetown | Hayden Row | Southville | Cordaville | Woodville | Farnumsville | Riverdale | Babson Park | New Town | Littleton Common | West Concord | Gleasondale | Fayville | South Milford | White City | Sheldonville | Worcester | Milburry | Sutton | Plainville </p>
-			</div>
-		</div>
-		<div class="f2">
-			<p>Copyright © 2019 | Giroux Electrical Contractors | All Rights Reserved</p>
-		</div>
-	</footer>
+	<!-- Start footer area -->
+<footer id="footer"></footer>
+<!-- End footer area -->
+
+<script src="./js/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("#header").load("header.html"); 
+            $("#footer").load("footer.html"); 
+        });
+</script>
 </main>
 </body>
 </html>

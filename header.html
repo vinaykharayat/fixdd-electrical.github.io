@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav id="nav-main">
+        <div id="logo-container">
+            <img src="./images/giroux-new-logo.png" width="182" height="182" alt="">
+        </div>
+        <ul id="nav-menu">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li id="dropdown-btn">Services
+                <div class="dropdown-content">
+                    <a href="#">Residential<br>Services</a>
+                    <a href="#">Commercial<br>Services</a>
+                </div>
+            </li>
+            <li>Careers</li>
+            <li><a href="Giroux_EVT.html">Edison Vs Tesla</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /* function called when you click of the button */
+            $("button").click(function () {
+
+                /* this if else to change the text in the button */
+                if ($("button").text() == "☰") {
+                    $("button").text("X");
+                } else {
+                    $("button").text("☰");
+                }
+
+                /* this function toggle the visibility of our "li" elements */
+                $("li").toggle("slow");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
