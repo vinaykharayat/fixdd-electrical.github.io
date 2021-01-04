@@ -245,21 +245,14 @@ form{
         flex-direction: column;
         flex-wrap: wrap;
     }
-
-    #in{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+    .input1{
+        padding-left: 0;
+        float: unset;
+        margin: 10px 10px;
         width: 100%;
     }
 
     #in textarea{
         margin: 10px 10px;
     }
-
-    #mr > input{
-        padding-left: 0;
-        float: unset;
-        margin: 10px 10px;
-    }
-
 }
