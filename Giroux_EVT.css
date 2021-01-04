@@ -1,0 +1,312 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.war{
+	background-color: #171616;
+	padding-right: 20px;
+	padding-left: 80px;
+	text-align: right;
+	height: 540px;
+	display: flex;
+	flex-direction: column;
+	background-size: 100% 100%;
+	background-image: url(https://girouxelectric.com/wp-content/uploads/2018/02/Edison-Tesla-Giroux-ElectricalContractors-1.jpg);
+}
+
+.war > div{
+	position: relative;
+	align-self: flex-start;
+	margin: auto 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 37px;
+	line-height: 44px;
+	font-weight: 500;
+	color: white;
+	width: 30%;
+}
+.section-2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background-color: #ffbe3d;
+	font-family: 'Varela Round', sans-serif;
+	color: #666666;
+	padding: 100px 200px;
+}
+
+.section-2 p{
+	font-weight: 500;
+	font-size: 26px;
+}
+
+.sec-2-a span{
+	font-weight: 700;
+	font-size: 26px;
+}
+
+.section-2 h1{
+	font-weight: 500;
+	font-size: 35px;
+	padding-top: 20px;
+}
+
+.section-3{
+	display: flex;
+	padding: 50px 80px;
+}
+
+.section-3 p{
+	font-family: 'Varela Round', sans-serif;
+	color: #666666;
+	font-weight: 500;
+	font-size: 22px;
+	padding: 20px 20px;
+}
+
+.section-4{
+	background-color: #f5f5f5;
+}
+
+.section-4 p{
+	font-family: 'Varela Round', sans-serif;
+	color: #666666;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	padding: 60px 80px;
+}
+
+.section-5{
+	padding-top: 40px;
+}
+
+.section-5 img{
+	float: right;
+	padding: 10px;
+}
+
+.section-5 p{
+	font-family: 'Varela Round', sans-serif;
+	color: #666666;
+	font-weight: 500;
+	font-size: 22px;
+	margin-left: 80px;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+.section-6{
+	background-color: #f5f5f5;
+}
+
+.section-6 p{
+	font-family: 'Varela Round', sans-serif;
+	color: #666666;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	padding: 60px 80px;
+}
+
+.section-7{
+	display: grid;
+	grid-template-areas: "sec-7a sec-7b sec-7c";
+	background-image: url(https://www.transparenttextures.com/patterns/white-tiles.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.sec-7a{
+	grid-area: sec-7a;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.sec-7a img{
+	margin-bottom: 40px;
+}
+
+.sec-7a p{
+	padding-left: 60px;
+	padding-right: 60px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #666666;
+}
+
+.sec-7b{
+	grid-area: sec-7b;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.sec-7b img{
+	margin-bottom: 40px;
+}
+
+.sec-7b p{
+	padding-left: 60px;
+	padding-right: 60px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #666666;
+}
+
+.sec-7c{
+	grid-area: sec-7c;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.sec-7c img{
+	margin-bottom: 40px;
+}
+
+.sec-7c p{
+	padding-left: 60px;
+	padding-right: 60px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #666666;
+}
+
+.section-8{
+	background-color: #f5f5f5;
+	padding: 100px 100px;
+}
+
+.section-8 img{
+	float: right;
+}
+
+.section-8 p{
+	font-family: 'Varela Round', sans-serif;
+	color: #666666;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 22px;
+}
+
+.section-9{
+	background-image: url(image15.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 80px;
+}
+
+.quote{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: rgba(102,102,102,0.9);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+}
+
+.quote p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 500;
+	color: white;
+	padding: 20px 40px;
+}
+
+.section-10{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background-color: #ffbe3d;
+	font-family: 'Varela Round', sans-serif;
+	color: #666666;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.section-10 p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	line-height: 34px;
+	font-weight: 500;
+	color: #666666;
+}
+
+.section-10 h2{
+	font-family: 'Varela Round', sans-serif;
+	color: #666666;
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 35px;
+	padding-top: 40px;
+}
+
+.section-10 h1{
+	font-family: 'Varela Round', sans-serif;
+	color: #666666;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 35px;
+	padding-top: 15px;
+}
+
+
+@media screen and (max-width: 800px){
+	.section-1{
+		height: 100%;
+	}
+	.war > div{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		font-size: medium;
+		background-color: #66666666;
+	}
+	.section-2{
+		padding: 100px 20px;
+	}
+	.section-7{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.section-7 > div{
+		margin: 30px 10px;
+	}
+	.section-7 img{
+		display: none;
+	}
+	.section-9{
+		padding: 20px 30px;
+	}
+	.quote{
+		padding: 30px 15px;
+	}
+	.section-9 p{
+		font-size: small !important;
+	}
+	.section-10{
+		padding: 60px 40px;
+	}
+}

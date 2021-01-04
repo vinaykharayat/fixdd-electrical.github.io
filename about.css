@@ -1,0 +1,339 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.featured-container{
+    position: relative;
+    background-image: url(https://girouxelectric.com/wp-content/uploads/2018/02/about-banner.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: 100% 100%;
+}
+
+.featured-image{
+    filter: opacity(50%);
+}
+
+.featured-image-overlay{
+    background-color: #262a62;
+    height: 500px;
+    transform: skew(-15deg);
+    filter: opacity(80%);
+    margin-right: 57%;
+    margin-left: -100%;
+}
+
+.featured-description{
+    position: absolute;
+    top: 0px;
+    color: white;
+    text-align: center;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    margin-top: 80px;
+    margin-left: 8%;
+}
+.section-1{
+	display: flex;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	padding: 20px 60px;
+	color: #666666;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	margin-top: 40px;
+	align-self: center;
+}
+
+.section-2{
+	display: table;
+	table-layout: fixed;
+	border-spacing: 20px;
+	border-collapse: separate;
+	position: relative;
+	margin: 20px;
+	text-align: center;
+}
+
+.price{
+	display: table-cell;
+	width: 33%;
+	padding: 40px 40px;
+	margin: auto 20px;
+	background-color: #f4f4f4;
+}
+
+.price:hover{
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.need{
+	display: table-cell;
+	width: 33%;
+	padding: 40px 40px;
+	margin: auto 20px;
+	background-color: #f4f4f4;
+}
+
+
+.need:hover{
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.work{
+	width: 33%;
+	display: table-cell;
+	padding: 40px 40px;
+	margin: auto 20px;
+	background-color: #f4f4f4;
+}
+
+.work:hover{
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.card-heading{
+	font-family:Varela Round; 
+	font-size: 20px; 
+	color: #666666;
+}
+
+.card-description{
+	font-family: Raleway; 
+	font-size: 16px; 
+	color: #666666;
+}
+
+.section-3{
+	display: flex;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	padding: 20px 60px;
+	color: #666666;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	margin-top: 40px;
+	align-self: center;
+}
+
+.section-4{
+	display: table;
+	table-layout: fixed;
+	border-spacing: 20px;
+	border-collapse: separate;
+	position: relative;
+	margin: 20px;
+	text-align: center;
+}
+
+.experienced{
+	display: table-cell;
+	width: 33%;
+	padding: 40px 40px;
+	margin: auto 20px;
+	background-color: #f4f4f4;
+}
+
+.experienced:hover{
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.friendly{
+	display: table-cell;
+	width: 33%;
+	padding: 40px 40px;
+	margin: auto 20px;
+	background-color: #f4f4f4;
+}
+
+.friendly:hover{
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.licensed{
+	display: table-cell;
+	width: 33%;
+	padding: 40px 40px;
+	margin: auto 20px;
+	background-color: #f4f4f4;
+}
+
+.licensed:hover{
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#section-5{
+	position: relative;
+	display: flex;
+	background-size: 100% 100%;
+	background-image: url(https://i.ibb.co/Nn7rWnv/pexels-pixabay-257736.jpg);
+}
+
+#section-5 > div{
+	align-self: center;
+	font-family: Varela Round;
+	width: 100%;
+	text-align: center;
+}
+
+.section-6{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	padding: 60px 0px;
+	background-color: #000c78;
+}
+
+.section-6 > div{
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	color: white;
+}
+.section-6 button{
+	font-family: 'Raleway', sans-serif;
+	margin-top: 40px;
+	padding: 10px 20px;
+	background-color: #000c78;
+	color: white;
+	border: #f4f4f4 solid;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.section-6 button:hover{
+	background-color: #8487ab;
+	border:#0000 solid;
+	padding-right: 40px;
+	transition: 200ms;
+}
+
+.section-6 button:hover , span{
+	background-color: #8487ab;
+	border:#0000 solid;
+	padding-right: 40px;
+	transition: 200ms;
+}
+
+.button{
+	font-family: 'Raleway', sans-serif;
+    margin-top: 40px;
+	background-color: #000c78;
+	color: white;
+	font-size: 20px;
+    font-weight: 500;
+}
+
+.button span {
+    transition: 0.3s;
+}
+
+.button:before, .button:after{
+    position: absolute;
+    align-self: center;
+    opacity: 0;
+}
+
+.button:before{
+    content: attr(data-hover);
+}
+
+.button:hover span{
+    opacity: 0;
+    padding-right: 20px;
+}
+
+.button:hover:before{
+    opacity: 1;
+}
+
+.button:hover{
+    background-color: #8487ab;
+}
+
+@media screen and (max-width: 600px){
+	.featured-container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-image: url(https://girouxelectric.com/wp-content/uploads/2020/05/residential-electrical-contractor.jpg);
+        width: 100%;
+        height: 500px;
+        background-size: 100% 100%;
+    }
+    
+    .featured-image-overlay{
+        background-color: #262a62;
+        transform: skew(360deg);
+        filter: opacity(80%);
+        margin-right: 0%;
+        margin-left: 0%;
+        height: 50%;
+        margin: auto;
+        flex: auto;
+        align-self: flex-end;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+    
+    .featured-description{
+        position: absolute;
+        flex: auto;
+        align-self: flex-end;
+        width: 100%;
+        color: white;
+        text-align: center;
+		margin: 50% auto;
+		top: 15%;
+    }
+
+    .featured-container img{
+        display: none;
+	}
+	
+	.section-2{
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+	.section-2 > div{
+		margin: auto;
+		margin-bottom: 20px;
+		width: 100%;
+	}
+
+	.section-4{
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+	.section-4 > div{
+		margin: auto;
+		margin-bottom: 20px;
+		width: 100%;
+	}
+}
