@@ -108,7 +108,7 @@ main {
     padding-top: 180px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     #nav-main {
         flex-direction: column;
     }
@@ -156,6 +156,6 @@ main {
         height: unset;
     }
     main {
-        padding-top: unset;
+        padding-top: 10vh;
     }
 }

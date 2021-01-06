@@ -17,10 +17,10 @@
 }
 
 .featured-image-overlay{
-    background-color: #262a62;
+    background-color: rgba(0,29,105,0.7);
     height: 500px;
     transform: skew(-15deg);
-    filter: opacity(80%);
+    filter: opacity(100%);
     margin-right: 57%;
     margin-left: -100%;
 }

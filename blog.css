@@ -68,3 +68,6 @@
 #a1:hover,#a2:hover,#a3:hover{
 	color: #082359;
 }
+@media screen and (max-width: 800px){
+	display: inline;
+}

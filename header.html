@@ -34,12 +34,13 @@
             $("#nav-btn").click(function () {
                 if ($("#nav-btn").text() == "☰") {
                     $("#nav-btn").text("X");
+                    $("#nav-menu li").slideToggle();
                 } else {
                     $("#nav-btn").text("☰");
+                    $("#nav-menu li").slideToggle();
                 }
-
-                $("#nav-menu li").slideToggle();
                 $("#site_logo_mobile").slideToggle();
+                
             });
         });
     </script>
