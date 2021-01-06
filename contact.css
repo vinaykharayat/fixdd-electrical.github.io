@@ -170,7 +170,7 @@ form{
     }
     
     .featured-image-overlay{
-        background-color: #262a62;
+        background-color: rgba(0,29,105,0.7);
         transform: skew(360deg);
         filter: opacity(80%);
         margin-right: 0%;

@@ -108,7 +108,7 @@
 	color: #666666;
 }
 
-.card-descr#262a62iption{
+.card-description{
 	font-family: Raleway; 
 	font-size: 16px; 
 	color: #666666;
@@ -118,7 +118,13 @@
 	display: flex;
 	position: relative;
 	text-align: center;
-	width: #262a62top: 40px;
+	width: 100%;
+	padding: 20px 60px;
+	color: #666666;
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	margin-top: 40px;
 	align-self: center;
 }
 
@@ -223,7 +229,14 @@
 	transition: 200ms;
 }
 
-.section-6 #262a62
+.section-6 button:hover , span{
+	background-color: #8487ab;
+	border:#0000 solid;
+	padding-right: 40px;
+	transition: 200ms;
+}
+
+.button{
 	font-family: 'Raleway', sans-serif;
     margin-top: 40px;
 	background-color: #000c78;
