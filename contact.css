@@ -185,40 +185,38 @@ form {
 
 @media screen and (max-width: 800px) {
     .featured-container {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        width: 100%;
-        height: 500px;
-        background-size: 100% 100%;
-    }
-    .featured-image-overlay {
-        background-color: rgba(0, 29, 105, 0.7);
-        transform: skew(360deg);
-        filter: opacity(80%);
-        margin-right: 0%;
-        margin-left: 0%;
-        height: 50%;
-        margin: auto;
-        flex: auto;
-        align-self: flex-end;
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-    }
-    .featured-description {
-        position: absolute;
-        flex: auto;
-        align-self: flex-end;
-        width: 100%;
-        color: white;
-        text-align: center;
-        margin: 50% auto;
-        top: 15%;
-    }
-    .featured-container img {
-        display: none;
-    }
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		width: 100%;
+		height: 250px;
+		background-size: 100% 100%;
+	}
+	
+	.featured-image-overlay {
+		background-color: rgba(0, 29, 105, 0.7);
+		height: 500px;
+		transform: skew(-15deg);
+		filter: opacity(100%);
+		margin-right: 30%;
+		margin-left: -100%;
+	}
+
+	.featured-description {
+		position: absolute;
+		flex: auto;
+		align-self: flex-end;
+		width: 100%;
+		color: white;
+		text-align: center;
+		margin: auto;
+		top: 30%;
+		right: 20%;
+	}
+	.featured-container img {
+		display: inline;
+		width: 64px;
+	}
     .section-1 {
         display: flex;
         flex-direction: column;
