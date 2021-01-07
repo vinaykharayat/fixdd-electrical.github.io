@@ -145,6 +145,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
+    text-align: left;
 }
 
 #section-6{

@@ -85,8 +85,13 @@
 	float: left;
 }
 
-.section-5{
-	padding-top: 40px;
+.section-5 p{
+	font-family: 'Varela Round', sans-serif;
+	color: #666666;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	padding: 60px 80px;
 }
 
 .section-5 img{
@@ -123,6 +128,7 @@
 	background-image: url(./images/background_section7.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding: 40px 20px;
 }
 
 .sec-7a{
@@ -226,6 +232,7 @@
 	text-align: center;
 	background-color: rgba(102,102,102,0.9);
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+	padding: 50px 15px;
 }
 
 .quote p{
