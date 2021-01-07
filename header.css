@@ -21,7 +21,7 @@
 header {
     position: fixed;
     z-index: 1;
-    height: 180px;
+    height: 120px;
     transition: 0.4s;
     width: 100%;
 }
@@ -32,17 +32,17 @@ header {
     width: 100%;
 }
 
-#nav-main ul {
+#nav-menu {
     margin: 0;
     padding: 0;
     display: flex;
-}
-
-#nav-menu {
     color: #333333;
     font-weight: 600;
     font-size: 20px;
     font-family: Varela Round, Helvetica, sans-serif;
+    width: 100%;
+    align-self: center;
+    height: 170px;
 }
 
 #nav-menu a {
@@ -50,7 +50,7 @@ header {
     color: #333333;
     display: flex;
     align-self: center;
-    padding: 1vh 1vh;
+    /* padding: 1vh 1vh; */
 }
 
 #nav-menu li {
@@ -61,7 +61,7 @@ header {
 }
 
 #nav-menu img {
-    margin: 10px 20px;
+    margin: 1px 9vw;
 }
 
 #nav-menu button,#site_logo_mobile{
@@ -105,7 +105,7 @@ header {
 }
 
 main {
-    padding-top: 180px;
+    padding-top: 150px;
 }
 
 @media screen and (max-width: 800px) {
