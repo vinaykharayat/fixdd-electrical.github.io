@@ -51,6 +51,7 @@ header {
     display: flex;
     align-self: center;
     /* padding: 1vh 1vh; */
+    color: rgba(0, 0, 0, 0.6);
 }
 
 #nav-menu li {
@@ -58,6 +59,10 @@ header {
     list-style-type: none;
     margin: 0 1vw;
     font-size: 3vh;
+}
+
+#nav-menu a:hover{
+    color: rgba(0, 0, 0, 0.5);
 }
 
 #site_logo {
