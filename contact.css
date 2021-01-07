@@ -51,7 +51,6 @@
 }
 
 .mrg {
-    margin-top: -15px;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     color: #666666;
@@ -189,7 +188,6 @@ form {
         display: flex;
         flex-direction: column;
         position: relative;
-        background-image: url(./images/featured_container.jpeg);
         width: 100%;
         height: 500px;
         background-size: 100% 100%;
@@ -226,15 +224,23 @@ form {
         flex-direction: column;
     }
     #add, #tel, #eml {
-        float: unset;
+        padding: unset;
+        margin-bottom: 10px;
+    }
+    #tel{
+        margin-right: 25px;
     }
     .cd {
         width: 100%;
         margin: 0px 40px;
     }
+
+    .cd img{
+        display: inline;
+        position: relative;
+    }
     .cd h1 {
-        padding:0px 0px;
-        padding-top: 30px;
+        padding:30px 0px;
         font-family: 'Varela Round', sans-serif;
         font-weight: 500;
         font-size: 26px;
@@ -254,39 +260,46 @@ form {
     .jt {
         padding-left: 0px;
         padding-top: 0px;
+        display: inline;
     }
 
     .mrg {
-        margin-left: 0px;
-        margin-top: 0;
-        ;
+        margin: 0;
         font-family: 'Raleway', sans-serif;
         font-size: 16px;
         color: #666666;
         line-height: 26px;
+        display: inline-block;
     }
+
     .form {
         display: flex;
         flex-direction: column;
         align-self: flex-start;
+        margin: 20px 40px;
+        
+        width: 80%;
 
     }
     form {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin: 30px 0;
+        padding: 0;
+        
     }
     .input1 {
         padding-left: 0;
         float: unset;
-        margin: 10px 10px;
-        width: 100%;
-        margin-left: 10px;
+        margin: 10px 0px;
+        width: 100% !important;
+        margin-left: 0px;
     }
     #em {
-        margin-left: 10px;
+        margin-left: 0px;
     }
     #in textarea {
-        margin: 10px 10px;
+        margin: 10px 0px;
     }
 }
