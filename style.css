@@ -277,7 +277,6 @@ main{
 
     #features-block-container > div{
         align-self: center;
-        border: solid blue 1px;
         margin: 0px;
         margin-bottom: 40px;
         height: fit-content;

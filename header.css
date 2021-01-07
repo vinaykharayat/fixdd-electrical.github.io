@@ -60,7 +60,7 @@ header {
     font-size: 3vh;
 }
 
-#nav-menu img {
+#site_logo {
     margin: 1px 9vw;
 }
 
@@ -116,11 +116,15 @@ main {
         flex-direction: column;
         text-align: center;
     }
+    #nav-menu{
+        height: unset;
+        padding: 0 40px;
+    }
     #nav-menu li {
         display: none;
         margin: 0;
     }
-    #nav-menu img {
+    #site_logo{
         margin: 0px 0px;
         align-self: center;
         display: none;
@@ -138,16 +142,16 @@ main {
         border: none;
         outline: none;
         cursor: pointer;
-        align-self: flex-start;
+        align-self: flex-end;
         padding: 20px 20px;
     }
 
-    #nav-menu #site_logo_mobile{
+    #site_logo_mobile{
         position: absolute;
         display: inline;
         margin: auto;
         top: 50%;
-        left: 50%;
+        left: 20%;
         transform: translate(-50%, -50%);
     }
 
@@ -156,6 +160,6 @@ main {
         height: unset;
     }
     main {
-        padding-top: 10vh;
+        padding-top: 9vh;
     }
 }
