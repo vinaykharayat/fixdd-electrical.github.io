@@ -114,6 +114,25 @@ main {
 }
 
 @media screen and (max-width: 800px) {
+    .dropdown-content{
+        display: inline;
+        position: relative;
+        background-color: #f1f1f1;
+        box-shadow: unset;
+        width: 90%;
+        float: right;
+    }
+
+    .dropdown-content li {
+        position: relative;
+        display: inline;
+    }
+
+    #dropdown-btn:hover .dropdown-content {
+        display: unset;
+    }
+    
+
     #nav-main {
         flex-direction: column;
     }
@@ -124,10 +143,13 @@ main {
     #nav-menu{
         height: unset;
         padding: 0 40px;
+        
     }
     #nav-menu li {
+        align-items: flex-start;
         display: none;
         margin: 0;
+        width: 100%;
     }
     #site_logo{
         margin: 0px 0px;
@@ -136,7 +158,15 @@ main {
     }
     #nav-menu a {
         display: block;
+        padding: 3% 0;
+        width: 100%;
+        text-align: left;
+        border-bottom: rgb(128, 128, 128, .1) 1px solid;
+        font-size: 14px;
+        font-weight: 600;
     }
+
+
     #nav-menu a:hover {
         background-color: cadetblue;
     }
