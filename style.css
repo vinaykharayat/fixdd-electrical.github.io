@@ -290,6 +290,10 @@ main{
         background-color: #f6f6f6;
         flex-direction: column;
     }
+
+    #section-3 button{
+        margin-top: 10%;
+    }
     #section-3> div{
         align-self: center;
         font-size: 29px;
@@ -306,8 +310,12 @@ main{
         height: 100%;
     }
 
+    #section-4-blocks button{
+        margin-top: 10%;
+    }
+
     .section-4-blocks_text-container{
-        width: 50vw;
+        width: 75vw;
     }
 
     #section-4-blocks > div{
@@ -328,7 +336,7 @@ main{
     #section-6-heading{
         font-size: x-large !important;
         position: relative;
-        margin:40px 20px;
+        margin: 0px 20px;
     }
 
     #section-6-heading + div{
@@ -342,6 +350,9 @@ main{
         height: 50vh;
     }
 
+    #section-7-text{
+        margin-bottom: 10%;
+    }
     #section-7 > div{
         display: block;
         position: relative;
