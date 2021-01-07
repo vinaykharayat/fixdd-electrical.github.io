@@ -217,7 +217,7 @@
 		height: 500px;
 		background-size: 100% 100%;
 	}
-	.featured-image-overlay {
+	/* .featured-image-overlay {
 		transform: skew(360deg);
 		filter: opacity(80%);
 		margin-right: 0%;
@@ -229,7 +229,8 @@
 		position: absolute;
 		width: 100%;
 		bottom: 0;
-	}
+	} */
+
 	.featured-description {
 		position: absolute;
 		flex: auto;
