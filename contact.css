@@ -36,12 +36,14 @@
     width:fit-content;
     margin-top: 80px;
     margin-left: 8%;
+    margin: 200px 250px;
 }
 
 .section-1{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 
 
@@ -52,13 +54,15 @@
 
 .mrg{
     margin-left: 30px;
+    margin-top: -15px;;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     color: #666666;
+    line-height: 26px;
 }
 
 .form{
-    margin: 60px 50px;
+    margin-top: 60px;
     width: 60%;
 }
 
@@ -97,8 +101,26 @@ form{
     border: 2px solid #001d69;
 }
 
+#em{
+    margin-left: 19px;
+    /* align-self: end;; */
+}
+
+.cd{
+    /* margin-left: 100px; */
+    /* justify-self: end;
+    width: 60%; */
+    width: 26%;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+#add{
+    padding-top: 40px;
+}
+
 .cd h1{
-    padding: 60px;
+    /* padding: 60px; */
     font-family: 'Varela Round', sans-serif;
 	font-weight: 500;
 	font-size: 26px;
@@ -122,8 +144,17 @@ form{
     padding-left: 20px;
 }
 
+#tj{
+    padding-left: 50px;
+}
+
+#je{
+    padding-left: 50px;
+}
+
 #jt{
-    padding-left: 50px;;
+    padding-left: 50px;
+    padding-top: 40px;
 }
 
 .button{
@@ -250,6 +281,12 @@ form{
         float: unset;
         margin: 10px 10px;
         width: 100%;
+        margin-left: 10px;
+    }
+
+    #em{
+        margin-left: 10px;
+
     }
 
     #in textarea{
