@@ -15,8 +15,8 @@
 	flex-direction: column;
 	padding-left: 150px;
 	padding-right: 120px;
-	border-top: 1px solid #666666;
-	border-right: 1px solid #666666;
+	border-top: 1px solid rgba(102, 102, 102 , 0.2);
+	border-right: 1px solid rgba(102, 102, 102 , 0.2);
 }
 
 .blog h1{
@@ -43,7 +43,7 @@
 	flex-direction: column;
 	padding-left: 40px;
 	padding-right: 120px;
-	border-top: 1px solid #666666;
+	border-top: 1px solid rgba(102, 102, 102 , 0.2);
 }
 
 .links h3{
