@@ -112,10 +112,6 @@ header {
     display: block;
 }
 
-.active {
-    color: #262a62;
-}
-
 main {
     padding-top: 150px;
 }
@@ -203,5 +199,9 @@ main {
     }
     main {
         padding-top: 9vh;
+    }
+
+    #home{
+        border-top: rgba(0,29,105,0.7) solid 2px;
     }
 }
