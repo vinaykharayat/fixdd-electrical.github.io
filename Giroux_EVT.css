@@ -84,10 +84,8 @@
 	margin: 0;
 }
 
-
 .section-7{
-	display: grid;
-	grid-template-areas: "sec-7a sec-7b sec-7c";
+	display: table;
 	background-image: url(./images/background_section7.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -95,65 +93,13 @@
 }
 
 .sec-7a{
-	grid-area: sec-7a;
-	display: flex;
-	flex-direction: column;
+	display: table-cell;
 	justify-content: center;
 	text-align: center;
 	align-items: center;
-}
-
-.sec-7a img{
-	margin-bottom: 40px;
 }
 
 .sec-7a p{
-	padding-left: 60px;
-	padding-right: 60px;
-	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
-	line-height: 24px;
-	font-weight: 500;
-	color: #666666;
-}
-
-.sec-7b{
-	grid-area: sec-7b;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
-	align-items: center;
-}
-
-.sec-7b img{
-	margin-bottom: 40px;
-}
-
-.sec-7b p{
-	padding-left: 60px;
-	padding-right: 60px;
-	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
-	line-height: 24px;
-	font-weight: 500;
-	color: #666666;
-}
-
-.sec-7c{
-	grid-area: sec-7c;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
-	align-items: center;
-}
-
-.sec-7c img{
-	margin-bottom: 40px;
-}
-
-.sec-7c p{
 	padding-left: 60px;
 	padding-right: 60px;
 	font-family: 'Raleway', sans-serif;
